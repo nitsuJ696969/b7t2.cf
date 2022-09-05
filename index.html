@@ -1,88 +1,51 @@
 <!DOCTYPE html>
-<html lang "de">
-<title> Webseiten gestalten </title>
-<meta charset "utf-8">
+<html lang = "de">
 <head> 
-	<h1> Webseiten mit HTML und CSS gestalten </h1>
-	<h3> HTML <h3>
+<title style="color:red";> Webseiten gestalten </title>
+<meta charset = "utf-8">
+<code font-size: 105%;>
 <head>
-<p><body> HTML ist eine (Text-)Auszeichnungssprache, die keine Befehle, sondern Tags verwendet.
+<body> 
+<h1> Webseiten mit HTML und CSS gestalten </h1>
+	<h2> HTML </h2>
+
+<p>HTML ist eine (Text-)Auszeichnungssprache, die keine Befehle, sondern Tags verwendet.
 Webseiten werden "geschrieben", um dann von einem entsprechenden Programm, dem Browser,
-"gelesen" zu werden. <br><br>
+"gelesen" zu werden. </p>
 	
-HTML strukturiert eine Webseite und wird "geschrieben" und nicht "programmiert". Sie schreiben
+<p>HTML strukturiert eine Webseite und wird "geschrieben" und nicht "programmiert". Sie schreiben
 "Quelltext" oder "Markup". HTML besteht aus Elementen. Dazu werden Tags verwendet, die
-Attribute mit Werten haben können:
-<element attribut="wert">Mein Text</element><br><br>
+Attribute mit Werten haben können:<br>
+&lt;element attribut="wert">Mein Text&lt;/element></p>
 	
-in Element kann mehrere Attribute besitzen, die in beliebiger Reihenfolge im Starttag stehen. Die
+<p>in Element kann mehrere Attribute besitzen, die in beliebiger Reihenfolge im Starttag stehen. Die
 Attribute ergänzen das HTML-Element durch konkretere Eigenschaften und können verschiedene
-Werte haben.<br><br>
-</p></body>
-
-		<h1> CSS </h1>
-		
+Werte haben.</p>
 
 
-	
-	
-	
-	
-	
-	
-</html>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-<!---
-<head>
-	<link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon.min.css" rel="stylesheet" />
+		<h2> CSS </h2>
+		<p> S steht für Cascading Stylesheets, einen einfachen Mechanismus, um Formatierungen für
+Webseiten zu schreiben. <p>
 
-	<script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+<p>Während HTML eine Webseite lediglich strukturiert, gestaltet CSS diese über eine Sammlung von
+Formatvorlagen, dem so genannten "Stylesheet". Alle HTML-Elemente können Sie mit CSS
+formatieren.</p>
 
-	<h1 style = "color : red"> Überschrift  </h1>
-</head>
-<body>
-	<b> Dieser Text ist Fett </b> 
-	<p> <em> Dieser Text ist Kursiv </em></p>
-	<p><strong><em>Dieser Text ist Fett und Kursiv </strong></em> </p>
-	&copy; Justin <br><br>
+<p>Stylesheets können in einem style-Element, das sich im head-Element des HTML-Dokuments
+befindet, aus einer .css-Datei eingebunden oder direkt definiert werden. Dazu werden
+Formatanweisungen verwendet, die aus einem Selektor (z.B. code) und einem Deklarationsblock in
+geschweiften Klammern (z.B. { font-size: 105%; }) bestehen. </p>
 
+<p>Eine Deklaration besteht aus einer Eigenschaft (z.B. font-size), einem Doppelpunkt und einem
+Wert (z.B. 105%), gefolgt von einem Semikolon:
+code { font-size: 105%; }</p>
 
-	<button onclick="window.location.href = 'https://www.google.com/search?q=test&rlz=1C1GCEB_enDE972DE978&oq=test&aqs=chrome..69i57j0i433i457i512j0i402l2j0i131i433i512j0i512j46i131i175i199i433j0i433i512j0i512j0i433i512.872j0j7&sourceid=chrome&ie=UTF-8';" class="btn" type="button">test button </button>
-</body>
-
-
-<script>
-	function myfunc(){
-			
-		  document.getElementById("zahl").innerHTML = parseInt(document.getElementById("zahl").innerHTML)  +1
-			
-	}
-</script>
-<h1> Clicke auf das Bild </h1> <h1 id="zahl">0</h1>
-
-
-<img onclick = "myfunc()" src= "dora.jpg"> 
-		---!>
-
-
+<p>Mit den folgenden Anweisungen im head-Element legen Sie für den gesamten Text im Dokument
+die Schriftart und die Schriftfarbe fest:
+&lt;style> <br>
+body{<br>
+font-family: Arial;<br>
+color: black;<br>
+}<br>
+&lt;/style> <br> <br>
+ </body></p>
