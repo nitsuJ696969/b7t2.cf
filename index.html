@@ -54,3 +54,23 @@ die Schriftart und die Schriftfarbe fest:
   <source src="fallguys.ogg" type="video/ogg">
 Your browser does not support the video tag.
 </video
+<body onload"startTime()">
+			 <div id "txt"></div>
+<script> 
+function startTime(){
+				      const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000); }
+							       </script>
+							       
+funtion(i){
+	if(i < 10){i = "0" + 1};
+			  return i;
+							       }
+			  </script>
+			  </body>
