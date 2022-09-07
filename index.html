@@ -11,6 +11,34 @@
 <h1> Webseiten mit HTML und CSS gestalten </h1>
 	<h2> HTML </h2>
 
+	<body onload"startTime()">
+			 <h1>Uhrzeit &#127812; </h1>
+			 <div id "txt"></div>
+<body font-size:40px onload="startTime()">
+
+
+
+<div <p align = "right"> style="font-size:40px;" id="txt"></div>
+
+<script>
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+
+	       
 
 <p>HTML ist eine (Text-)Auszeichnungssprache, die keine Befehle, sondern Tags verwendet.
 Webseiten werden "geschrieben", um dann von einem entsprechenden Programm, dem Browser,
@@ -57,33 +85,5 @@ die Schriftart und die Schriftfarbe fest:
   <source src="fallguys.ogg" type="video/ogg">
 Your browser does not support the video tag.
 </video>
-	 
-<body onload"startTime()">
-			 <h1>Uhrzeit &#127812; </h1>
-			 <div id "txt"></div>
-<body font-size:40px onload="startTime()">
-
-
-
-<div style="font-size:40px;" id="txt"></div>
-
-<script>
-function startTime() {
-  const today = new Date();
-  let h = today.getHours();
-  let m = today.getMinutes();
-  let s = today.getSeconds();
-  m = checkTime(m);
-  s = checkTime(s);
-  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
-  setTimeout(startTime, 1000);
-}
-
-function checkTime(i) {
-  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-  return i;
-}
-</script>
-
 			  </body>
 			 
