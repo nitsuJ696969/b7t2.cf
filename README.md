@@ -28,4 +28,4 @@
 
 
 
-![Alt Text](https://tenor.com/de/view/discord-mod-discord-gif-19296665)
+![Alt Text](https://media.tenor.com/CmuP2ExTXDQAAAAC/discord-mod-discord.gif)
