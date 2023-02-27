@@ -1,144 +1,144 @@
 <style>
-  html,
-body {
-	height: 100%;
-}
+    html,
+  body {
+  	height: 100%;
+  }
 
-body {
-	margin: 0;
-	background: linear-gradient(45deg, #49a09d, #5f2c82);
-	font-family: sans-serif;
-	font-weight: 100;
-}
+  body {
+  	margin: 0;
+  	background: linear-gradient(45deg, #49a09d, #5f2c82);
+  	font-family: sans-serif;
+  	font-weight: 100;
+  }
 
-.container {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
+  .container {
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  }
 
-table {
-	width: 800px;
-	border-collapse: collapse;
-	overflow: hidden;
-	box-shadow: 0 0 20px rgba(0,0,0,0.1);
-}
+  table {
+  	width: 800px;
+  	border-collapse: collapse;
+  	overflow: hidden;
+  	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
 
-th,
-td {
-	padding: 15px;
-	background-color: rgba(255,255,255,0.2);
-	color: #fff;
-}
+  th,
+  td {
+  	padding: 15px;
+  	background-color: rgba(255,255,255,0.2);
+  	color: #fff;
+  }
 
-th {
-	text-align: left;
-}
+  th {
+  	text-align: left;
+  }
 
-thead {
-	th {
-		background-color: #55608f;
-	}
-}
+  thead {
+  	th {
+  		background-color: #55608f;
+  	}
+  }
 
-tbody {
-	tr {
-		&:hover {
-			background-color: rgba(255,255,255,0.3);
-		}
-	}
-	td {
-		position: relative;
-		&:hover {
-			&:before {
-				content: "";
-				position: absolute;
-				left: 0;
-				right: 0;
-				top: -9999px;
-				bottom: -9999px;
-				background-color: rgba(255,255,255,0.2);
-				z-index: -1;
-			}
-		}
-	}
-}
-  </style>
+  tbody {
+  	tr {
+  		&:hover {
+  			background-color: rgba(255,255,255,0.3);
+  		}
+  	}
+  	td {
+  		position: relative;
+  		&:hover {
+  			&:before {
+  				content: "";
+  				position: absolute;
+  				left: 0;
+  				right: 0;
+  				top: -9999px;
+  				bottom: -9999px;
+  				background-color: rgba(255,255,255,0.2);
+  				z-index: -1;
+  			}
+  		}
+  	}
+  }
+</style>
 
 <div class="container">
-	    <table>
-      <tr>
-        <th>Stunde</th>
-        <th>Montag</th>
-        <th>Dienstag</th>
-        <th>Mittwoch</th>
-        <th>Donnerstag</th>
-        <th>Freitag</th>
-      </tr>
-      <tr>
-        <td>7:45Uhr</td>
-        <td>STRUC</td>
-        <td>FENNE/MOORK</td>
-        <td>FENNE</td>
-        <td>SCHNI</td>
-        <td>SCHNI</td>
-      </tr>
-      <tr>
-        <td>9:15Uhr</td>
-        <td>STRUC</td>
-        <td>FENNE/MOORK</td>
-        <td>FENNE</td>
-        <td>SCHNI</td>
-        <td>SCHNI</td>
-      </tr>
-      <tr>
-        <td>9:35Uhr</td>
-        <td>MEINS</td>
-        <td>SCHNI/FENNE</td>
-        <td>SCHNI/FENNE</td>
-        <td>LOREN</td>
-        <td>FENNEN</td>
-      </tr>
-      <tr>
-        <td>11:05Uhr</td>
-        <td>MEINS</td>
-        <td>SCHNI/FENNE</td>
-        <td>SCHNI/FENNE</td>
-        <td>LOREN</td>
-        <td>FENNEN</td>
-      </tr>
-      <tr>
-        <td>11:25Uhr</td>
-        <td>FENNE/MOORK</td>
-        <td>MOORK</td>
-        <td>SCHNI/STRUC</td>
-        <td>MOORK</td>
-        <td>SCHNI</td>
-      </tr>
-      <tr>
-        <td>12:55Uhr</td>
-        <td>FENNE/MOORK</td>
-        <td>MOORK</td>
-        <td>SCHNI/STRUC</td>
-        <td>MOORK</td>
-        <td>SCHNI</td>
-      </tr>
-      <tr>
-        <td>13:20Uhr</td>
-        <td>-</td>
-        <td>STRUC</td>
-        <td>SPALR</td>
-        <td>MOORK</td>
-        <td>-</td>
-      </tr>
-      <tr>
-        <td>14:50Uhr</td>
-        <td>-</td>
-        <td>STRUC</td>
-        <td>SPALR</td>
-        <td>MOORK</td>
-        <td>-</td>
-      </tr>
-    </table>
+  <table>
+    <tr>
+      <th>Stunde</th>
+      <th>Montag</th>
+      <th>Dienstag</th>
+      <th>Mittwoch</th>
+      <th>Donnerstag</th>
+      <th>Freitag</th>
+    </tr>
+    <tr>
+      <td>7:45Uhr</td>
+      <td>STRUC</td>
+      <td>FENNE/MOORK</td>
+      <td>FENNE</td>
+      <td>SCHNI</td>
+      <td>SCHNI</td>
+    </tr>
+    <tr>
+      <td>9:15Uhr</td>
+      <td>STRUC</td>
+      <td>FENNE/MOORK</td>
+      <td>FENNE</td>
+      <td>SCHNI</td>
+      <td>SCHNI</td>
+    </tr>
+    <tr>
+      <td>9:35Uhr</td>
+      <td>MEINS</td>
+      <td>SCHNI/FENNE</td>
+      <td>SCHNI/FENNE</td>
+      <td>LOREN</td>
+      <td>FENNEN</td>
+    </tr>
+    <tr>
+      <td>11:05Uhr</td>
+      <td>MEINS</td>
+      <td>SCHNI/FENNE</td>
+      <td>SCHNI/FENNE</td>
+      <td>LOREN</td>
+      <td>FENNEN</td>
+    </tr>
+    <tr>
+      <td>11:25Uhr</td>
+      <td>FENNE/MOORK</td>
+      <td>MOORK</td>
+      <td>SCHNI/STRUC</td>
+      <td>MOORK</td>
+      <td>SCHNI</td>
+    </tr>
+    <tr>
+      <td>12:55Uhr</td>
+      <td>FENNE/MOORK</td>
+      <td>MOORK</td>
+      <td>SCHNI/STRUC</td>
+      <td>MOORK</td>
+      <td>SCHNI</td>
+    </tr>
+    <tr>
+      <td>13:20Uhr</td>
+      <td>-</td>
+      <td>STRUC</td>
+      <td>SPALR</td>
+      <td>MOORK</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>14:50Uhr</td>
+      <td>-</td>
+      <td>STRUC</td>
+      <td>SPALR</td>
+      <td>MOORK</td>
+      <td>-</td>
+    </tr>
+  </table>
 </div>
